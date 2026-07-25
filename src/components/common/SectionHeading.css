@@ -1,0 +1,42 @@
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: clamp(var(--space-10), 5vw, var(--space-16));
+}
+
+.align-center {
+  align-items: center;
+  text-align: center;
+}
+
+.align-left {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.align-right {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.section-badge {
+  margin-bottom: var(--space-4);
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  max-width: 800px;
+}
+
+.section-description {
+  margin-top: var(--space-4);
+  font-size: var(--font-size-md);
+  color: var(--text-secondary);
+  max-width: 640px;
+  line-height: 1.6;
+}
